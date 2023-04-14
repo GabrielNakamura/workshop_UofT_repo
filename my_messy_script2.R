@@ -1,6 +1,10 @@
 # Count penguins for each species / sex
 
-penguins <- read.csv2("/Users/gabrielnakamura/OneDrive/Aulas/Workshop_UofT/data_example/raw_data_penguins.csv", header = TRUE)
+# lets start working with data
+
+
+penguins <- read.csv2(here::here("data_example", "raw_data_penguins.csv"))
+
 
 data_processed2 <- 
   penguins %>% 
